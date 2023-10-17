@@ -1,0 +1,97 @@
+Configuration
+
+    Configure user information:
+    git config --global user.name "Your Name"
+    git config --global user.email "youremail@example.com"
+
+Basic Commands
+
+ Initialize a new Git repository:
+git init
+
+Clone a repository:
+git clone <repository_url>
+
+Check the status of your repository:
+git status
+
+Add changes to the staging area:
+git add <file>
+
+Add all changes to the staging area:
+git add .
+
+Commit staged changes:
+git commit -m "Your commit message"
+
+Pull changes from a remote repository:
+git pull
+
+Push changes to a remote repository:
+git push
+
+Branches
+
+    List all branches:
+    git branch
+
+Create a new branch:
+git branch <branch_name>
+
+Switch to a different branch:
+git checkout <branch_name>
+
+Create and switch to a new branch:
+git checkout -b <branch_name>
+
+Delete a branch:
+git branch -d <branch_name>
+
+Merging
+
+    Merge a branch into the current branch:
+    git merge <branch_name>
+
+Stashing
+
+    Stash changes (temporarily save without committing):
+    git stash
+
+Apply stashed changes:
+git stash apply
+
+Log and History
+
+    View commit history:
+    git log
+
+View a simplified history:
+git log --oneline
+
+View the difference introduced in a commit:
+ git show <commit_hash>
+
+Remote Repositories
+
+    Add a remote repository:
+git remote add <remote_name> <repository_url>
+
+Fetch changes from a remote repository:
+git fetch <remote_name>
+
+Remove a remote repository:
+git remote remove <remote_name>
+
+Rename a remote repository:
+git remote rename <old_name> <new_name>
+
+Miscellaneous
+
+    Ignore files or directories in .gitignore:
+    Create or edit a .gitignore file and list 
+    files/directories to be ignored.
+
+    Show the Git version:
+    git --version
+
+" git help" commit will provide information about the commit command.

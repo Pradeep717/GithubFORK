@@ -1,0 +1,14 @@
+ how to fork a repository on platforms like GitHub:
+
+    Go to the original repository's page on the platform.
+    Click the "Fork" button.
+    This will create a copy of the repository in your account.
+
+After forking, you can clone your fork to your local machine, make changes,
+ and then push those changes to your fork. 
+ From there, you can create a pull request (or equivalent) to suggest changes
+  to the original repository.
+
+Forking is a powerful way to contribute to open-source projects, 
+collaborate with others, and maintain your own versions of code 
+repositories while preserving the integrity of the original project.

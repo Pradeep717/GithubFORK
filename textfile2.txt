@@ -1,1 +1,1 @@
-Demo to see how to add files in Github
+Demo to see how to add files in Git
